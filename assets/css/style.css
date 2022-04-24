@@ -1,7 +1,30 @@
+body{
+    background-color: #fafafa;
+}
+
 .dino{
     width: 60px;
     height: 60px;
     position: absolute;
     bottom: 0;
-    background-color: green;
+    background-image: url('../img/dino.png');
+}
+
+.cactus{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    background-image: url('../img/cactus.png');
+}
+
+.background{
+    background-image: url('../img/background.png');
+}
+
+.game-over{
+    text-align: center;
+    color: #666;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
